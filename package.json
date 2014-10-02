@@ -1,7 +1,7 @@
 {
   "name": "any-newer-files",
   "description": "Compares two lists of files and returns true if any of the first list are newer than any in the second list.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {},
   "scripts": {
     "lint": "jshint .",
