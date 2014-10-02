@@ -14,7 +14,7 @@ function mockStatSync(file) {
   }
 }
 
-describe('any-new-files', function () {
+describe('any-newer-files', function () {
 
   it('should be a function', function() {
     assert.equal(typeof anyNewer, 'function')

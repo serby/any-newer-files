@@ -1,5 +1,5 @@
 {
-  "name": "any-new-files",
+  "name": "any-newer-files",
   "description": "Compares two lists of files and returns true if any of the first list are newer than any in the second list.",
   "version": "0.0.1",
   "dependencies": {},
@@ -24,6 +24,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:serby/any-new-files.git"
+    "url": "git@github.com:serby/any-newer-files.git"
   }
 }

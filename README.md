@@ -1,13 +1,13 @@
-# any-new-files
+# any-newer-files
 
 Compares two lists of files and returns true if any of the first list are newer than any in the second list.
 
-[![build status](https://secure.travis-ci.org/serby/any-new-files.png)](http://travis-ci.org/serby/any-new-files)
+[![build status](https://secure.travis-ci.org/serby/any-newer-files.png)](http://travis-ci.org/serby/any-newer-files)
 
 ## Installation
 
 ```
-npm install any-new-files --save
+npm install any-newer-files --save
 ```
 
 ## Usage
