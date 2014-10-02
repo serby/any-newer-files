@@ -1,0 +1,29 @@
+{
+  "name": "any-new-files",
+  "description": "Compares two lists of files and returns true if any of the first list are newer than any in the second list.",
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts": {
+    "lint": "jshint .",
+    "checkStyle": "jscs .",
+    "pretest": "npm run-script lint && npm run-script checkStyle",
+    "test": "istanbul cover ./node_modules/.bin/_mocha test",
+    "posttest": "istanbul check-coverage && rm -rf coverage",
+    "prepublish": "npm test && npm prune"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Paul Serby <paul.serby@clock.co.uk>",
+  "license": "New BSD",
+  "devDependencies": {
+    "mocha": "*",
+    "istanbul": "*",
+    "jshint": "*",
+    "jscs": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:serby/any-new-files.git"
+  }
+}
