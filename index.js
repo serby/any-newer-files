@@ -8,7 +8,13 @@ function anyNewer(sourceFiles, outputFiles) {
     throw new TypeError('sourceFiles should be an array')
   }
 
-  if (outputFiles.length === 0) return false
+  if (!Array.isArray(outputFiles)) {
+    throw new TypeError('outputFiles should be an array')
+  }
+
+  if (sourceFiles.length === 0) return false
+
+  if (outputFiles.length === 0) return true
 
   var sourceAge = sourceFiles.reduce(function(previousValue, file) {
     var mtime = fs.statSync(file).mtime.getTime()

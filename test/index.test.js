@@ -43,7 +43,7 @@ describe('any-newer-files', function () {
   })
 
   it('should return true if second argument is empty', function() {
-    assert.equal(anyNewer([ __dirname + '/index.test.js' ], []), false)
+    assert.equal(anyNewer([ __dirname + '/index.test.js' ], []), true)
   })
 
   it('should return false if first argument is empty', function() {
