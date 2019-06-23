@@ -2,7 +2,7 @@
 
 Compares two lists of files and returns true if any of the first list are newer than any in the second list.
 
-[![build status](https://secure.travis-ci.org/serby/any-newer-files.png)](http://travis-ci.org/serby/any-newer-files)
+[![build status](https://secure.travis-ci.org/serby/any-newer-files.png)](http://travis-ci.org/serby/any-newer-files) [![Greenkeeper badge](https://badges.greenkeeper.io/serby/any-newer-files.svg)](https://greenkeeper.io/)
 
 ## Installation
 
